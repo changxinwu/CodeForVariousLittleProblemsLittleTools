@@ -1,4 +1,6 @@
 /bin/
 .metadata/
 *.bak
+.metadata\
+\.metadata\
 
