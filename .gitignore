@@ -1,6 +1,6 @@
 /bin/
 /.metadata/
-.metadata/
+\.metadata/
 *.bak
 .metadata\
 \.metadata\
