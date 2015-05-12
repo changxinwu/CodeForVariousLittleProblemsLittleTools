@@ -57,7 +57,7 @@ class SimpleCaloryCalculator implements CaloryCalculator{
 		double duration = newSwimmingData.duration;
 		double calories = (CALORIES_PER_HOUR_PER_KG * weight - 
 				bmc.getBasicMetabolism(swimmerInfo)) * duration;
-		//double calories = CALORIES_PER_HOUR_PER_KG * weight * time; //this is a simplest method
+		//double calories = CALORIES_PER_HOUR_PER_KG * weight * time;
 		return calories;
 	}
 }
